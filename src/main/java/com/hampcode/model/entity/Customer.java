@@ -9,6 +9,8 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "customers")
 public class Customer {
+	
+	//Test Comment 2
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
